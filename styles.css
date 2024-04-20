@@ -1,14 +1,8 @@
- first{
-    color: white;
-    background-color: black;
-    font-weight: bold;
-    font-size: 28px;
-    font-family: 'New Times New Roman', Times, sans-serif;
+/*rule 1 */
+.subsection{
+    color: blue;
 }
-second {
-    color: black;
-    background-color: yellow;
-    font-weight: bold;
-    font-size: 28px;
-    font-family: 'Times New Roman', Times, sans-serif;
+/* rule 2 */
+.main.list{
+    color: red;
 }
