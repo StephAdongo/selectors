@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>selectors</title>
+        <title>grouping selectors</title>
         <style>
-        div{
-            color: white;
-            background-color: black;
-            font-weight: bold;
-            font-size: 28px;
-            font-family: 'New Times New Roman', Times, sans-serif;
-        }
-        second{
-            color: black;
-            background-color: yellow;
-            font-weight: bold;
-            font-size: 28px;
-            font-family: 'Times New Roman', Times, sans-serif;
-        }
+            .one{
+                color: white;
+                background-color: black;
+                font-weight: bold;
+                font-size: 28px;
+                font-family: Helvetica,'Times New Roman', sans-serif;
+                display: inline;
+            }
+            .two{
+                background-color: yellow;
+                font-size: 28px;
+                font-family: Helvetica,'Times New Roman', sans-serif;
+                display: inline-block;
+            }
         </style>
     </head>
     <body>
-     <div class="first">Click Me!</div>
-     <div class="second">No Click Me!</div>
+          <p class="one">Click Me!</p>
+            <p class="two">No, Click Me!</p>
     </body>
+</html>
         
